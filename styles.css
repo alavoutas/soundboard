@@ -16,6 +16,21 @@ h1 {
   color: #ffffff;
 }
 
+.sound-button {
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.sound-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sound-button img {
+  pointer-events: none; /* Ensure img doesn't intercept clicks */
+}
+
 .soundboard {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
