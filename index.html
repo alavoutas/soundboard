@@ -1,0 +1,35 @@
+<!DOC<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Soundboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Soundboard</h1>
+  <div class="soundboard">
+    <div class="sound-button" onclick="playSound('sound1')">
+      <img src="images/sound1.png" alt="Sound 1">
+      <p>Funny Laugh</p>
+    </div>
+    <div class="sound-button" onclick="playSound('sound2')">
+      <img src="images/sound2.png" alt="Sound 2">
+      <p>Air Horn</p>
+    </div>
+    <div class="sound-button" onclick="playSound('sound3')">
+      <img src="images/sound3.png" alt="Sound 3">
+      <p>Explosion</p>
+    </div>
+    <!-- Add more rows of 3 like this -->
+    <!--
+    <div class="sound-button" onclick="playSound('sound4')">
+      <img src="images/sound4.png" alt="Sound 4">
+      <p>Clap</p>
+    </div>
+    -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
